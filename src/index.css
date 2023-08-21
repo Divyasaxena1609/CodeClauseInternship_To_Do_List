@@ -1,0 +1,144 @@
+body{
+  background-image: url("https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/8/10/1439224571566/c221a364-1c6d-469d-a893-dcc8d722a5f6-2060x1236.jpeg?width=700&quality=85&auto=format&fit=max&s=1601d09e6e8e89d9c5e3a7e74a498796");
+}
+
+.heading{
+  text-align: center;
+  background-color:gray;
+  color: white;
+ }
+
+ input[type=text]{
+  width: 400px;
+  padding: 12px 20px;
+  margin: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  appearance: none;
+
+}
+
+.input{
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.input button{
+  width: 240px;
+  padding: 12px 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  appearance: none;
+
+}
+
+/*.border{
+    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}*/
+
+.border{
+  overflow: hidden;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  display: block;
+  /*flex-direction: column;
+  justify-content: center;
+  float: left;*/
+  margin-right: 350px;
+  margin-top: 80px;
+  margin-left: 350px;
+  border: 10px solid #110101;
+}
+
+
+.delete{
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px 5px 5px 5px;
+  min-height: 3.4rem;
+  border: 2px solid #565656;
+  background-color: darkred;
+  color: white;
+}
+
+.btn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  width: 100px;
+  padding: 2px 2px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-top: 2px solid black;
+}
+
+.editbtn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  width: 100px;
+  padding: 2px 2px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-top: 2px solid black;
+}
+
+.btn:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.editbtn:hover{
+  background-color: rgb(98, 45, 119);
+  color: white;
+}
+
+hr{
+  border-top: 1px solid black;
+}
+
+.heading:hover{
+  background-color: palevioletred;
+  color: black;
+}
+
+button:hover{
+  background-color: lightslategray;
+  color: white;
+  border-top: 10px;
+  border-color: black;
+  transform: scale(1.1);
+}
+
+input[type=text]:hover{
+  background-color: honeydew;
+  color: black;
+}
+
+.border{
+  width:50%;
+  height: auto;
+}
+
+.delete:hover{
+  background-color: mediumslateblue;
+  color: black;
+}
